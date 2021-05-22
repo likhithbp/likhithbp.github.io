@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+}
+
+img{
+    width: 500px;
+    height: 380px;
+    margin: 1%;
+    box-shadow: 10px 10px 5px grey;
+    transition: transform .2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 3em;
+    border-bottom: 2px solid rgb(103, 147, 243);
+    border-right: 2px solid rgb(152, 171, 206);
+    text-align: center;
+    width: 400px;
+    text-shadow: 2px 2px rgb(44, 3, 121);
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    margin-left: 90%;
+}
+
+.btn-primary{
+    background-color: #b7b3f0;
+    border-color: #b7b3f0;
+}
+
+.btn-primary:hover{
+    background-color: #70689e;
+    border-color: #70689e;
+    border-width: 4px;
+}
+
+.btn-xl{
+    padding: 0.3rem 1.5rem;
+    font-size: 1.5rem;
+}
